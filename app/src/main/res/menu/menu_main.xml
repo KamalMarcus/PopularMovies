@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MoviesFragment">
+    <item
+        android:id="@+id/action_sort_by"
+
+        android:title="@string/action_sort_by"
+        app:showAsAction="ifRoom">
+
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/action_sort_popularity"
+                    android:checked="true"
+                    android:title="@string/action_sort_popularity"
+                    app:showAsAction="ifRoom" />
+                <item
+                    android:id="@+id/action_sort_rating"
+                    android:title="@string/action_sort_rating"
+                    app:showAsAction="ifRoom" />
+                <item
+                    android:id="@+id/action_sort_favourite"
+                    android:title="@string/action_sort_favourite"
+                    app:showAsAction="ifRoom" />
+            </group>
+        </menu>
+
+    </item>
+</menu>

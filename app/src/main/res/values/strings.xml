@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Popular Movies</string>
+    <string name="action_sort_by">Sort By</string>
+    <string name="action_sort_popularity">Most Popular</string>
+    <string name="action_sort_rating">Highest Rated</string>
+    <string name="action_sort_favourite">Favourites</string>
+    <string name="title_activity_details">DetailsActivity</string>
+    <string name="title_activity_movie_details">MovieDetailsActivity</string>
+    <string name="action_settings">Settings</string>
+
+
+</resources>
